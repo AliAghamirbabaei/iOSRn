@@ -6,30 +6,17 @@ struct VersionView: View {
     @State var presentReleaseNote = false
     
     var body: some View {
-#if os(macOS)
         HStack {
             Text(name)
-                .padding()
             Spacer()
         }
         .onTapGesture {
             presentReleaseNote.toggle()
         }
+        .padding()
         .sheet(isPresented: $presentReleaseNote) {
             ReleaseNoteView(filename: filename)
         }
-        
-#endif
-        
-#if os(iOS)
-        NavigationLink(destination: ReleaseNoteView(filename: filename), label: {
-            HStack {
-                Text(name)
-                    .padding()
-                Spacer()
-            }
-        })
-#endif
     }
 }
 
