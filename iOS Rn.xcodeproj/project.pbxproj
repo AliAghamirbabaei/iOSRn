@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		3021817A2943EA00006A174B /* iOS_RnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302181792943EA00006A174B /* iOS_RnApp.swift */; };
-		3021817C2943EA00006A174B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021817B2943EA00006A174B /* ContentView.swift */; };
+		3021817C2943EA00006A174B /* VersionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3021817B2943EA00006A174B /* VersionListView.swift */; };
 		3021817E2943EA02006A174B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3021817D2943EA02006A174B /* Assets.xcassets */; };
 		302181822943EA02006A174B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302181812943EA02006A174B /* Preview Assets.xcassets */; };
+		30980E322944F1880010EED5 /* ReleaseNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30980E312944F1880010EED5 /* ReleaseNoteView.swift */; };
+		30980E342944F8590010EED5 /* ReleaseNotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30980E332944F8590010EED5 /* ReleaseNotesViewModel.swift */; };
+		30F6B1F929447EB8009983C5 /* VersionNotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6B1F829447EB8009983C5 /* VersionNotesModel.swift */; };
+		30F6B1FB2944810B009983C5 /* VersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6B1FA2944810B009983C5 /* VersionModel.swift */; };
+		30F6B1FE29448ADF009983C5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6B1FD29448ADF009983C5 /* Network.swift */; };
+		30F6B2002944A4E1009983C5 /* VersionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6B1FF2944A4E1009983C5 /* VersionsViewModel.swift */; };
+		30F6B2022944B1CC009983C5 /* FetchableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6B2012944B1CC009983C5 /* FetchableProtocol.swift */; };
+		30F6B2072944D3A3009983C5 /* VersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6B2062944D3A3009983C5 /* VersionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		302181762943EA00006A174B /* iOS Rn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Rn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		302181792943EA00006A174B /* iOS_RnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_RnApp.swift; sourceTree = "<group>"; };
-		3021817B2943EA00006A174B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3021817B2943EA00006A174B /* VersionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionListView.swift; sourceTree = "<group>"; };
 		3021817D2943EA02006A174B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3021817F2943EA02006A174B /* iOS_Rn.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS_Rn.entitlements; sourceTree = "<group>"; };
 		302181812943EA02006A174B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30980E312944F1880010EED5 /* ReleaseNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseNoteView.swift; sourceTree = "<group>"; };
+		30980E332944F8590010EED5 /* ReleaseNotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseNotesViewModel.swift; sourceTree = "<group>"; };
+		30F6B1F829447EB8009983C5 /* VersionNotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionNotesModel.swift; sourceTree = "<group>"; };
+		30F6B1FA2944810B009983C5 /* VersionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionModel.swift; sourceTree = "<group>"; };
+		30F6B1FD29448ADF009983C5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		30F6B1FF2944A4E1009983C5 /* VersionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionsViewModel.swift; sourceTree = "<group>"; };
+		30F6B2012944B1CC009983C5 /* FetchableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchableProtocol.swift; sourceTree = "<group>"; };
+		30F6B2062944D3A3009983C5 /* VersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				302181792943EA00006A174B /* iOS_RnApp.swift */,
-				3021817B2943EA00006A174B /* ContentView.swift */,
+				30F6B1FC29448AC5009983C5 /* Helper */,
+				30F6B1F729447C41009983C5 /* ViewModel */,
+				30F6B1F629447C32009983C5 /* Model */,
+				30F6B1F529447C21009983C5 /* View */,
 				3021817D2943EA02006A174B /* Assets.xcassets */,
 				3021817F2943EA02006A174B /* iOS_Rn.entitlements */,
 				302181802943EA02006A174B /* Preview Content */,
@@ -67,6 +86,43 @@
 				302181812943EA02006A174B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30F6B1F529447C21009983C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3021817B2943EA00006A174B /* VersionListView.swift */,
+				30F6B2062944D3A3009983C5 /* VersionView.swift */,
+				30980E312944F1880010EED5 /* ReleaseNoteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30F6B1F629447C32009983C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				30F6B1F829447EB8009983C5 /* VersionNotesModel.swift */,
+				30F6B1FA2944810B009983C5 /* VersionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		30F6B1F729447C41009983C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30980E332944F8590010EED5 /* ReleaseNotesViewModel.swift */,
+				30F6B1FF2944A4E1009983C5 /* VersionsViewModel.swift */,
+				30F6B2012944B1CC009983C5 /* FetchableProtocol.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		30F6B1FC29448AC5009983C5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				30F6B1FD29448ADF009983C5 /* Network.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +141,8 @@
 			dependencies = (
 			);
 			name = "iOS Rn";
+			packageProductDependencies = (
+			);
 			productName = "iOS Rn";
 			productReference = 302181762943EA00006A174B /* iOS Rn.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +171,8 @@
 				Base,
 			);
 			mainGroup = 3021816D2943EA00006A174B;
+			packageReferences = (
+			);
 			productRefGroup = 302181772943EA00006A174B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +199,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3021817C2943EA00006A174B /* ContentView.swift in Sources */,
+				30F6B1FE29448ADF009983C5 /* Network.swift in Sources */,
+				30F6B2022944B1CC009983C5 /* FetchableProtocol.swift in Sources */,
+				30F6B2002944A4E1009983C5 /* VersionsViewModel.swift in Sources */,
+				30F6B1FB2944810B009983C5 /* VersionModel.swift in Sources */,
+				3021817C2943EA00006A174B /* VersionListView.swift in Sources */,
+				30F6B2072944D3A3009983C5 /* VersionView.swift in Sources */,
+				30F6B1F929447EB8009983C5 /* VersionNotesModel.swift in Sources */,
+				30980E322944F1880010EED5 /* ReleaseNoteView.swift in Sources */,
+				30980E342944F8590010EED5 /* ReleaseNotesViewModel.swift in Sources */,
 				3021817A2943EA00006A174B /* iOS_RnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +330,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "iOS Rn/iOS_Rn.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS Rn/Preview Content\"";
-				DEVELOPMENT_TEAM = N4Y99Y6PT4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -286,6 +355,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AliAghamirbabaei.iOS-Rn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -300,10 +370,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "iOS Rn/iOS_Rn.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"iOS Rn/Preview Content\"";
-				DEVELOPMENT_TEAM = N4Y99Y6PT4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -324,6 +395,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.AliAghamirbabaei.iOS-Rn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;

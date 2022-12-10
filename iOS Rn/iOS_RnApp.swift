@@ -11,7 +11,7 @@ import SwiftUI
 struct iOS_RnApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VersionListView()
         }
     }
 }
